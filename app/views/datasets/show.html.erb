@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<div align = "left">
+<article typeof="dcat:Dataset">
+  <dl>
+    <dt>Name</dt>
+    <dd property="dc:title"><%= @dataset.title %></dd>
+    <dt>Identifiers</dt>
+    <dd property="dc:identifier">http://doi.org/101.100/192</dd>
+  </dl>
+</article>    
+  
+
+
+<%= link_to 'Edit', edit_dataset_path(@dataset) %> |
+<%= link_to 'Back', datasets_path %>
