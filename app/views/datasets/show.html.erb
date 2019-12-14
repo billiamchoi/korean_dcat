@@ -5,60 +5,12 @@
   <dl>
     <dt>Name</dt>
       <dd property="dc:title"><%= @dataset.title %></dd>
-    <dt>Identifiers</dt>
-      <dd property="dc:identifier">http://doi.org/101.100/192</dd>
-      <dd property="dc:identifier">http://Identifiers.org/ark:/fk1234</dd>
-    <dt>AccessRights</dt>
-      <dd property="dc:AccessRights">http://purl.org/eprint/accessRights/OpenAccess</dd>
-    <dt>ContactPoint</dt>
-      <dd property="dc:conteactPoint">name: 최우영, phone: 010-1234-1234</dd>
     <dt>Creator</dt>
-      <dd property="dc:creator">name: <%= @dataset.creator %>, phone: 010-3648-7574</dd>
+      <dd property="dc:creator">name: <%= @dataset.creator %></dd>
     <dt>Issuesd</dt>
       <dd property="dc:issued"> <%= @dataset.created_at %></dd>
     <dt>Modified</dt>
       <dd property="dc:modified"> <%= @dataset.updated_at %></dd>
-    <dt>Language</dt>
-      <dd property="dc:language">한국어</dd>
-    <dt>Publisher</dt>
-      <dd property="dc:publisher">name: 최우영, phone: 010-1234-1234</dd>
-    <dt>Description</dt>
-      <dd property="dc:description">대한민국 전국의 기상청 데이터셋입니다. 관측은 매시 10분에 이루어지며 바람, 강수량, 태풍유무, 우박 유무의 데이터를 수집하고 있으며 데이터셋에 반영은 매월 첫째주 목요일에 시행하고 있습니다. 이 데이터 셋을 통해 딥러닝을 통한 날씨 예측, 태풍 경로 예측 등에 사용하고 있습니다.</dd>
-    <dt>Category</dt>
-      <dd rel="dc:theme">날씨</dd>
-    <dt>Type</dt>
-      <dd rel="dc:type">dataset</dd>
-    <dt>Keyword</dt>
-      <dd rel="dc:keyword">날씨, 폭우, 비, 바람, 태풍, 매미, 오늘의 날씨, 전국 날씨, 강우량, 우박</dd>
-    <dt>LandingPage</dt>
-      <dd rel="dc:landingPage">http://www.google.com</dd>
-    <dt>Rights</dt>
-      <dd rel="dc:rights">Copyright 2019. Woo Young</dd>
-    <dt>AccrualPeriodicity</dt>
-      <dd rel="dc:AccrualPeriodicity">1개월</dd>
-    <dt>Spatial</dt>
-      <dd rel="dc:spatial">"lat" :37.42248, "lng" :-122.08425</dd>
-    <dt>SpatialResolutionInMeters</dt>
-      <dd rel="dc:spatialResolutionInMeters">1</dd>
-    <dt>Temporal</dt>
-      <dd rel="dc:temporal">temporal_start:2019-10-11, temporal_end:2019-12-25</dd> 
-    <dt>TemporalResolution</dt>
-      <dd rel="dc:temporalResolution">10ms</dd>
-    <dt>Version</dt>
-      <dd rel="dc:version">1.0</dd> 
-    <dt>VersionDescription</dt>
-      <dd rel="dc:versionDescription">초기버전입니다.</dd>
-    <dt class="field-label">Download</dt>
-    <dd>
-      <ul>
-        <li>
-          <a rel="dcat:distribution" href="/datasets/1">
-          <span property="dcat:mediaType" content="text/csv">Seoul_Weather_2010</span>
-          <span property="dcat:accessService" content="http://example.com">http://example.com</span>
-          </a>
-        </li>
-      </ul>
-    </dd>
   </dl>
 </article>    
   
