@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @distribution.title %>
+</p>
+
+<p>
+  <strong>Mediatype:</strong>
+  <%= @distribution.mediatype %>
+</p>
+
+<p>
+  <strong>Accessservice:</strong>
+  <%= @distribution.accessservice %>
+</p>
+
+<%= link_to 'Edit', edit_distribution_path(@distribution) %> |
+<%= link_to 'Back', distributions_path %>

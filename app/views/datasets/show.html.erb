@@ -3,14 +3,52 @@
 <div align = "left">
 <article typeof="dcat:Dataset">
   <dl>
-    <dt>Name</dt>
+    <dt>Title</dt> 
       <dd property="dc:title"><%= @dataset.title %></dd>
+    <dt>Identifiers</dt>
+       <dd property="dc:identifier"><%= @dataset.human_identifier %></dd>
+       <dd property="dc:identifier"><%= @dataset.organization_identifier %></dd>
+     <dt>AccessRights</dt>
+       <dd property="dc:AccessRights"><%= @dataset.accessrights %></dd>
+     <dt>ContactPoint</dt>
+       <dd property="dc:contactPoint">name: <%= @dataset.name_contactpoint %>, phone: <%= @dataset.phone_contactpoint %></dd>  
     <dt>Creator</dt>
-      <dd property="dc:creator">name: <%= @dataset.creator %></dd>
+      <dd property="dc:creator">name: <%= @dataset.name_creator %>, phone: <%= @dataset.phone_creator %></dd> 
     <dt>Issuesd</dt>
       <dd property="dc:issued"> <%= @dataset.created_at %></dd>
     <dt>Modified</dt>
       <dd property="dc:modified"> <%= @dataset.updated_at %></dd>
+    <dt>Language</dt>
+       <dd property="dc:language"><%= @dataset.language %></dd>
+     <dt>Publisher</dt>
+      <dd property="dc:publisher">name: <%= @dataset.name_publisher %>, phone: <%= @dataset.phone_creator %></dd>
+     <dt>Description</dt>
+      <dd property="dc:description"><%= @dataset.description %></dd>
+    <dt>Category</dt>
+       <dd rel="dc:theme"><%= @dataset.theme %></dd>
+     <dt>Type</dt>
+       <dd rel="dc:type"><%= @dataset.category %></dd>
+     <dt>Keyword</dt>
+       <dd rel="dc:keyword"><%= @dataset.keyword %></dd>
+     <dt>LandingPage</dt>
+       <dd rel="dc:landingPage"><%= @dataset.landingpage %></dd>
+     <dt>Rights</dt>
+       <dd rel="dc:rights"><%= @dataset.rights %></dd>
+     <dt>AccrualPeriodicity</dt>
+       <dd rel="dc:AccrualPeriodicity"><%= @dataset.accrualperiodicity %></dd>
+     <dt>Spatial</dt>
+       <dd rel="dc:spatial"><%= @dataset.spatial %></dd>
+     <dt>SpatialResolutionInMeters</dt>
+       <dd rel="dc:spatialResolutionInMeters"><%= @dataset.spatialresolutionInMeters %></dd>
+     <dt>Temporal</dt>
+       <dd rel="dc:temporal"><%= @dataset.temporal %></dd> 
+     <dt>TemporalResolution</dt>
+       <dd rel="dc:temporalResolution"><%= @dataset.temporalresolution %></dd>
+     <dt>Version</dt>
+       <dd rel="dc:version"><%= @dataset.version %></dd> 
+     <dt>VersionDescription</dt>
+       <dd rel="dc:versionDescription"><%= @dataset.versiondescription %></dd>   
+
   </dl>
 </article>    
   

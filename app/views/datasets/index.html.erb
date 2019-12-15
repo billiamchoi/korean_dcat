@@ -14,7 +14,7 @@
   <tbody>
     <%= content_tag_for(:tr, @datasets) do |dataset| %>
         <td><%=link_to dataset.title, dataset_path(dataset) %></td>
-        <td><%= dataset.creator %></td>
+        <td><%= dataset.name_creator %></td>
         <td>
           <%= link_to 'Edit', edit_dataset_path(dataset) %> |
           <%= link_to 'Destroy', dataset, method: :delete, data: { confirm: 'Are you sure?' } %>

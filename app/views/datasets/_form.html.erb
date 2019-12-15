@@ -15,11 +15,100 @@
 <div class="form-group">
     <%= f.label :title %>
     <%= f.text_field :title, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :creator %>
-    <%= f.text_field :creator, class: "form-control" %>
-  </div>
+</div>
+<div class="form-group">
+  <%= f.label :name_of_creator %>
+  <%= f.text_field :name_creator, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :phone_of_creator %>
+  <%= f.text_field :phone_creator, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :human_identifier %>
+  <%= f.text_field :human_identifier, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :organization_identifier %>
+  <%= f.text_field :organization_identifier, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :accessrights %>
+  <%= f.text_field :accessrights, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :name_of_contactpoint %>
+  <%= f.text_field :name_contactpoint, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :phone_of_contactpoint %>
+  <%= f.text_field :phone_contactpoint, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :name_of_publisher %>
+  <%= f.text_field :name_publisher, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :phone_of_publisher %>
+  <%= f.text_field :phone_publisher, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :language %>
+  <%= f.text_field :language, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :description %>
+  <%= f.text_area :description, cols: "50", rows: "10", class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :catagory %>
+  <%= f.text_field :theme, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :category %>
+  <%= f.text_field :category, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :keyword %>
+  <%= f.text_area :keyword, cols: "50", rows: "5", class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :landingpage %>
+  <%= f.text_field :landingpage, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :rights %>
+  <%= f.text_field :rights, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :accrualperiodicity %>
+  <%= f.text_field :accrualperiodicity, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :spatial %>
+  <%= f.text_field :spatial, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :spatialresolutionInMeters %>
+  <%= f.text_field :spatialresolutionInMeters, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :temporal %>
+  <%= f.text_field :temporal, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :temporalresolution %>
+  <%= f.text_field :temporalresolution, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :version %>
+  <%= f.text_field :version, class: "form-control" %>
+</div>
+<div class="form-group">
+  <%= f.label :versiondescription %>
+  <%= f.text_area :versiondescription, cols: "50", rows: "10", class: "form-control" %>
+</div>
+
 <%= f.submit class: "btn btn-primary" %>
   </div>
 <% end %>

@@ -10,13 +10,46 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_08_042054) do
+ActiveRecord::Schema.define(version: 2019_12_15_024343) do
 
   create_table "datasets", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title", null: false
-    t.string "creator", null: false
+    t.string "name_creator", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "human_identifier"
+    t.string "organization_identifier"
+    t.string "accessrights"
+    t.string "name_contactpoint"
+    t.string "phone_contactpoint"
+    t.string "phone_creator"
+    t.string "language"
+    t.string "name_publisher"
+    t.string "phone_publisher"
+    t.text "description"
+    t.string "theme"
+    t.string "category"
+    t.string "keyword"
+    t.string "landingpage"
+    t.string "rights"
+    t.string "accrualperiodicity"
+    t.string "spatial"
+    t.string "spatialresolutionInMeters"
+    t.string "temporal"
+    t.string "temporalresolution"
+    t.string "version"
+    t.text "versiondescription"
   end
 
+  create_table "distributions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "title"
+    t.string "mediatype"
+    t.string "accessservice"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "dataset_id", null: false
+    t.index ["dataset_id"], name: "index_distributions_on_dataset_id"
+  end
+
+  add_foreign_key "distributions", "datasets"
 end
