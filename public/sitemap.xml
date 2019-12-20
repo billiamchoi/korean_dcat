@@ -8,17 +8,17 @@
 
 
 <url>
-  <loc>https://korean-dcat.herokuapp.com/</loc>
+  <loc>https://dcat-repository.herokuapp.com/</loc>
   <lastmod>2019-12-13T08:52:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://korean-dcat.herokuapp.com/datasets</loc>
+  <loc>https://dcat-repository.herokuapp.com/datasets</loc>
   <lastmod>2019-12-13T08:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://korean-dcat.herokuapp.com/datasets/41</loc>
+  <loc>https://dcat-repository.herokuapp.com/datasets/41</loc>
   <lastmod>2019-12-13T08:52:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
