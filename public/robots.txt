@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://korean-dcat.herokuapp.com/sitemap.xml
+Sitemap: https://dcat-repository.herokuapp.com/sitemap.xml
