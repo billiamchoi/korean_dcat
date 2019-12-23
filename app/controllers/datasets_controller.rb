@@ -10,6 +10,7 @@ class DatasetsController < ApplicationController
   # GET /datasets/1
   # GET /datasets/1.json
   def show
+    @distribution = Distribution.where(dataset_id: params[:id]).all
   end
 
   # GET /datasets/new

@@ -11,6 +11,11 @@
     </div>
   <% end %>
 
+  <div class="form-group">
+    <%= form.label :dataset_id %>
+    <%= form.select :dataset_id, Dataset.all.collect {|x| [x.title, x.id]}, {} %>
+  </div>
+
   <div class="field">
     <%= form.label :title %>
     <%= form.text_field :title %>
