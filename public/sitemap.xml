@@ -9,27 +9,42 @@
 
 <url>
   <loc>https://delab-repo.herokuapp.com/</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://delab-repo.herokuapp.com/datasets</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://delab-repo.herokuapp.com/datasets/new</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
+  <loc>https://delab-repo.herokuapp.com/datasets/51</loc>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://delab-repo.herokuapp.com/datasets/51/edit</loc>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://delab-repo.herokuapp.com/datasets/new</loc>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://delab-repo.herokuapp.com/distributions/new.51</loc>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://delab-repo.herokuapp.com/distributions</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://delab-repo.herokuapp.com/distributions/new</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
+  <lastmod>2020-06-07T12:35:09+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 
