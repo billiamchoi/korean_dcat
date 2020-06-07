@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://dcat-repository.herokuapp.com/sitemap.xml
+Sitemap: https://delab-repo.herokuapp.com/sitemap.xml

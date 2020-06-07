@@ -8,52 +8,27 @@
 
 
 <url>
-  <loc>https://dcat-repository.herokuapp.com/</loc>
+  <loc>https://delab-repo.herokuapp.com/</loc>
   <lastmod>2019-12-24T08:35:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://dcat-repository.herokuapp.com/datasets</loc>
+  <loc>https://delab-repo.herokuapp.com/datasets</loc>
   <lastmod>2019-12-24T08:35:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dcat-repository.herokuapp.com/datasets/41</loc>
+  <loc>https://delab-repo.herokuapp.com/datasets/new</loc>
   <lastmod>2019-12-24T08:35:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://dcat-repository.herokuapp.com/datasets/41/edit</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://dcat-repository.herokuapp.com/datasets/new</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://dcat-repository.herokuapp.com/distributions/11</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://dcat-repository.herokuapp.com/distributions/new.41</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://dcat-repository.herokuapp.com/distributions/11/edit</loc>
+  <loc>https://delab-repo.herokuapp.com/distributions</loc>
   <lastmod>2019-12-24T08:35:17+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://dcat-repository.herokuapp.com/distributions</loc>
-  <lastmod>2019-12-24T08:35:17+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://dcat-repository.herokuapp.com/distributions/new</loc>
+  <loc>https://delab-repo.herokuapp.com/distributions/new</loc>
   <lastmod>2019-12-24T08:35:17+00:00</lastmod>
   <priority>0.33</priority>
 </url>
